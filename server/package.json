@@ -1,9 +1,11 @@
 {
-  "name": "react-system-server",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4"
   }
 }
