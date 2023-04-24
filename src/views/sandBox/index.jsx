@@ -23,6 +23,7 @@ export default function NewsSandBox() {
         <Route path="/right-manage/role/list" component={RoleList} />
 
         <Redirect from="/" to="/home" />
+        <Route path="*" component={() => <div>404</div>} />
       </Switch>
     </div>
   )
